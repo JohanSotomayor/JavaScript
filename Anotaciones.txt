@@ -1,0 +1,25 @@
+CURSO JAVASCRIPT
+
+ETAPA DE COMPILACION
+LENGUAJES DINAMICOS: Son aquellos que no necesitan se compilados para ser interpretado
+LENGUAJES ESTATICOS: Necesitan ser compilados ha codigo binario para ser interpretados por la maquina
+
+ETAPA RUNTIME
+LENGUAJES INTERPRETADOS: Son aquellos que son leidos secuencialmente linea por linea no el codigo completo
+
+TIPOS DE DATOS: debilmente tipado
+VAR*
+
+LECTURA DE VARIABLES
+SCOPE: Es el alcanze que tiene una variable declarada o inicializada GLOBAL si se incializa fuera de una funcion sirve en todo el codigo LOCAL Se inicializa dentro de una funcion y solo es leia dentro de ella
+
+HOISTING: procesamiento de las variables y funciones antes de la ejecucion del codigo, estas leen y se deben declarar primero antes de llamarlas
+
+COECION: Es la conversion de las variables pueden ser IMPLICITAS (interpretadas por la maquina) o EXPLICITAS(realizando cambio de su tipo de dato por medio de una funcion)
+
+OPERADORES
+TRUE FALSE (=="Toma el valor") (==="compara tipo de dato y valor")
+
+IF ELSE
+SWITCH
+ TERNARIO: Reemplaza el IF y ELSE 
