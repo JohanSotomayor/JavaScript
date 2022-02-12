@@ -28,3 +28,37 @@
 
 ### FUNCION DE ORDEN SUPERIOR
 - Se le denomina de esta manera a aquellas funciones que tienen como parametros otras funciones, las cuales se ejecutan dentro de esta funcion(de orden superior) y por ello su nombre
+  
+---
+
+# ENGINE JS
+### Interprete compilador de lenguaje JS a codigo ByteCode
+
+
+1. Creacion de entorno global (Window, This)
+2.  Contexto de ejecucion
+    -  Parseo
+    -  ASP (Abstrac syntax tree)
+    -  Interpretacion (Hosting, Optimizacion)
+    -  Traduccion a ByteCode
+    -  Acceso a APIs WEB (DOM, AJAX, SetTimeOut)
+  
+### Motor V8: El mas utilizado creado por Google en 2008 (optimizacion en estabilidad y performance)
+
+### HISTORIA RESUMEN
+
+- 1995: Lenguaje Mocha
+  -  1995: LiveScript
+        - 1995: Script
+          - 1995:javaScript
+            -1995: JScript (Microsoft) 
+            - 1997: ECMA (Estandarizacion del lenguaje)
+              - 2008: Engine V8 (Motor creado por Google)
+                - 2009: NodeJS
+                  - 2010:Frameworks
+                    - 2015: EcmaScript6(versionamiento actualizado cada año)
+
+
+
+
+   
