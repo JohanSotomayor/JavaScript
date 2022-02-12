@@ -10,6 +10,9 @@ LENGUAJES ESTATICOS: Necesitan ser compilados ha codigo binario para ser interpr
 ETAPA RUNTIME
 LENGUAJES INTERPRETADOS: Son aquellos que son leidos secuencialmente linea por linea no el codigo completo
 
+ENGINE JAVASCRIPT: Motor que interpreta JS a lenguaje Binario para reconocimiento del PC (Integrado en el navegador) el mas conocido el V8 de Google Chrome muy utilizado por 
+brindar un alto performance y estabilidad
+
 TIPOS DE DATOS: debilmente tipado
 VAR*
 
