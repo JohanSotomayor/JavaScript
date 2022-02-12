@@ -1,5 +1,8 @@
 CURSO JAVASCRIPT
 
+
+DEFINICION:Lenguaje construido bajo un aparadigma de objectos, asincronico (solo realiza una ejecicion al timpo)
+
 ETAPA DE COMPILACION
 LENGUAJES DINAMICOS: Son aquellos que no necesitan se compilados para ser interpretado
 LENGUAJES ESTATICOS: Necesitan ser compilados ha codigo binario para ser interpretados por la maquina
@@ -23,3 +26,14 @@ TRUE FALSE (=="Toma el valor") (==="compara tipo de dato y valor")
 IF ELSE
 SWITCH
  TERNARIO: Reemplaza el IF y ELSE 
+
+EVENT LOOP
+ CALLSTACK
+- Estructura de pila, son las tareas(funciones) que ejecuta JS empezando por GlobalThis y por la funcion llamada, al terminar su ejecuion sale de la pila, asi siempre sale el ultimo secuencialmente, hasta solo volver a quedar en GlobaThis
+CALLBACK
+-  Cola de tareas dentro del event loop, esperan a que el Callstack ejecute las funciones llamadas para poder ejecutarse, normalmente son funciones pasadas como parametros en otras funciones y siendo utilizadas dentro de otras funciones
+ MEMORY HEAP 
+- Memoria de collecion o de monton esta alamcena los datos (variables o funciondes) dentro del programa, ejemplo= al inicilizar una variable esta guarda su valor, si cambia el valor de esa variable mas adelante el memory heap borra el valor anterior y deja el nuevo
+
+GARBAGE COLECTOR
+- limpia la memory heap de las variables o informacion que ya no estamos utilizando (como una variable renombrada, su valor anterior es sweep osea barrido)
