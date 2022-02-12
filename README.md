@@ -1,6 +1,8 @@
+
 # JAVASCRIPT DESDE 0
-![JavaScript]("LogoJS.png")
-## De: Johan Sotomayor {JSoto} <https://johansotomayor.github.io>
+<img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> \{JSoto} Johan Sotomayor <https://johansotomayor.github.io>
+
+
 
 - Bases del lenguaje
 - Termino principales (Scope, Hoisting, Coersion)
