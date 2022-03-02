@@ -15,7 +15,7 @@
 - Objetos
 
 # EVENT LOOP 
--Controlador de eventos en JS bajo una etructura de MonoHilo (capacidad en ejecucion de una sola entrada y una sola salida)
+- Controlador de eventos en JS bajo una etructura de MonoHilo (capacidad en ejecucion de una sola entrada y una sola salida)
 ### CALLSTACK
 - Estructura de pila, son las tareas(funciones) que ejecuta JS empezando por GlobalThis y por la funcion llamada, al terminar su ejecuion sale de la pila, asi siempre sale el ultimo secuencialmente, hasta solo volver a quedar en GlobaThis
 ### CALLBACK 
@@ -57,6 +57,15 @@
                 - 2009: NodeJS
                   - 2010:Frameworks
                     - 2015: EcmaScript6(versionamiento actualizado cada año)
+
+---
+# ASINCRONISMO
+
+Metodologia que mejoran el performance y flujo de nuestras aplicaciones, sobre la ejecucion y llamados de funciones.
+
+- CALLBACK: La referencia de una funcion dentro de otra funcion de orden superior. Su implementacion debe ser cuidadosa para evitar la saturacion en peticiones (CallBack Hell) recomendado realizar el llamado max 3 veces
+- PROMESAS: Es la ejecucion de una funcion en el momento de ser necesario, la cual nos retorna una respuesta o un rechazo asi realizando muchos llamadados secuencialmente
+- ASYNC(SetTimeOut,await): Es el manejo de peticiones temporizadas evitando el saturamiento o respuesta anticipada 
 
 
 

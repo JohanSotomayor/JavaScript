@@ -1,3 +1,12 @@
 #No incluir las imagenes
 *.png
 *.jpg
+#  No incluir txt anotaciones
+Anotaciones.txt
+
+#No incluir Carpeta NodeModules
+
+*node_modules
+
+# No incluir package-lock.json
+package-lock.json

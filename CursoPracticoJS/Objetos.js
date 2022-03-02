@@ -26,34 +26,33 @@
 
 // // Array con Objetos
 
-// var videojuegos = [
-//    {titulo:"Dragon Ball ", consola:"xbox", genero:"pelea"},
-//    {titulo:"Call of duty", consola:"play", genero:"guerra"},
-//    {titulo:"Fifa 21", consola:"play", genero:"Deportes"},
-//    {titulo:"NBA22", consola:"xbox", genero:"Deportes"}
-// ]
+var videojuegos = [
+   {titulo:"Dragon Ball ", consola:"xbox", genero:"pelea", precio:5000},
+   {titulo:"Call of duty", consola:"play", genero:"guerra",precio:4000},
+   {titulo:"Fifa 21", consola:"play", genero:"Deportes",precio:1000},
+   {titulo:"NBA22", consola:"xbox", genero:"Deportes",precio:4000}
+]
 
-// // RECORRE ARRAYS
+// RECORRE ARRAYS
 
-// // FILTER= filtramos el array por un valor y nos trae todas las filas que lo contengan
-// // var TipoConsola = videojuegos.filter(function(tipo_consola){
-// //     return tipo_consola.genero == "guerra"
-// // })
-// // console.log(TipoConsola)
+// FILTER= filtramos el array por un valor y nos trae todas las filas que lo contengan
+var TipoConsola = videojuegos.filter(function(tipo_consola){
+    return tipo_consola.titulo + tipo_consola.precio
+})
+console.log(TipoConsola)
 
-// // MAP = mapear un array por tipo creando un nuevo array
-// //  var titulos= videojuegos.map(function(juegos){
-// //      return juegos.titulo + juegos.genero
-// //  })
-
+// MAP = mapear un array por tipo creando un nuevo array
+ var titulos= videojuegos.map(function(juegos){
+      return juegos.titulo+ juegos.precio
+ })
+ console.log(titulos)
 
 // // console.log(titulos)
 
-// // FOREACH = encontrar cada indice u tipo dentro de un array
-// videojuegos.forEach(function(titulo){
-//     console.log(titulo.titulo)
-// })
-
+// FOREACH = encontrar cada indice u tipo dentro de un array
+videojuegos.forEach(function(titulo){
+    console.log("forecah"+titulo.titulo)
+})
 // // FIND= encontrar un valor en especifico dentro del array obteniendo el primer resultado
 // var tipoGenero = videojuegos.find(function (genero){
 //     return genero.genero == "Deportes"

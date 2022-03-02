@@ -1,2 +1,7 @@
-console.log("hola \n"+"hola2")
-console.log(`hola.hola2`)
+function sumar(a){
+    
+   return a+2
+ } 
+
+const sum= sumar(5)
+console.log(sum)
